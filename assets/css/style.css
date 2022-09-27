@@ -12,12 +12,12 @@ html, body{
 }
 
 .navbar ul li{
-    margin: 0 20px;
+    margin: 0 15px;
 }
 
 .navbar a {
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none !important;
 }
 
