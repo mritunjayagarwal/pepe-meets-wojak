@@ -3,7 +3,8 @@
     src: url(../fonts/Banthink.ttf);
 }
 
-html, body{
+html,
+body {
     font-family: 'Banthink';
     max-width: 100%;
     overflow-x: hidden;
@@ -13,7 +14,7 @@ html, body{
     padding: 40px 10%;
 }
 
-.navbar ul li{
+.navbar ul li {
     margin: 0 15px;
 }
 
@@ -40,14 +41,33 @@ section {
     min-width: 80%;
     margin: 0 auto;
 }
-.footer-ul{
+
+.base{
+    width: 400px; height: auto;
+}
+
+.main-3{
+    width: 430px; height: auto; position: absolute;top: 50px; left: 0;
+}
+
+.badge{
+    width: 120px; height: auto; position: absolute;right: 100px;
+}
+
+.footer-ul {
     list-style-type: none;
 }
 
-.footer-ul li{
+.footer-ul li {
     margin-left: -40px
 }
 
-.footer-ul li a{
+.footer-ul li a {
     color: #9797B4;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
 }
