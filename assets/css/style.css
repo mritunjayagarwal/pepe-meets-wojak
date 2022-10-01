@@ -42,6 +42,14 @@ section {
     margin: 0 auto;
 }
 
+.img-head1{
+    position: absolute; top: -100px;z-index: 2;
+}
+
+.img-head2{
+    position: absolute; top: 50px; left: 280px;
+}
+
 .base {
     width: 400px;
     height: auto;
@@ -99,7 +107,16 @@ section {
 }
 
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
+    .img-head1{
+        width: 330px;
+        margin-left: -20px;
+        height: auto;
+    }
+    
+    .img-head2{
+       width: 200px;
+       margin-left: -130px;
+       margin-top: -20px;
+       height: auto;
     }
 }
