@@ -126,6 +126,10 @@ section {
     color: #9797B4;
 }
 
+.upper-border{
+    width: 105%;height: auto;z-index: 2;position: absolute; top: -50px;margin-left: -20px;
+}
+
 @media only screen and (max-width: 600px) {
     .img-head1{
         width: 330px;
@@ -138,6 +142,10 @@ section {
        margin-left: -130px;
        margin-top: -20px;
        height: auto;
+    }
+
+    .upper-border{
+        top: -18px;
     }
 
     .base{
@@ -203,5 +211,18 @@ section {
     .aid-3{
         top: 230px;
         width: 80px;
+    }
+
+    .navbar-nav li {
+        margin: 20px 10px !important;
+    }
+
+    .nav-button{
+        width: 88%;
+        margin: 0 20px 0 15px;
+    }
+
+    .navbar-collapse{
+        background: #121212;
     }
 }
