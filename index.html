@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -18,8 +19,9 @@
         <div style="background: url('./assets/img/main.png'); background-size: cover; background-repeat: no-repeat;">
             <div style="background: rgba(25,25,25, 0.5)">
                 <div class="fixed-top">
-                    <div class="text-center bg-dark py-2 text-white">Meme Marketplace <span style = "color: #FFA500">launching</span> soon</div>
-                    <nav class="navbar navbar-expand-lg py-3 m-0" data-aos="fade-down" data-aos-delay="800">
+                    <div class="text-center bg-dark py-2 text-white">Meme Marketplace <span
+                            style="color: #FFA500">launching</span> soon</div>
+                    <nav class="navbar navbar-expand-lg py-3 m-0">
                         <!-- Container wrapper -->
                         <!-- Navbar brand -->
                         <a class="navbar-brand me-2" href="#">
@@ -64,9 +66,9 @@
                             </li> -->
                                 <li class="nav-item">
                                     <a href="">
-                                        <button type="button" class="px-3 btn pt-3 px-5 uni-btn" data-toggle="modal"
+                                        <button type="button" class="px-3 btn pt-2 pb-1 px-5" data-toggle="modal"
                                             data-target="#exampleModal"
-                                            style="font-size: 15px;margin-top: -8px; font-weight: 600;background: #fff; color: #000;">
+                                            style="margin-top: -8px; font-weight: 600;background: #fff; color: #000;">
                                             Buy on Uniswap
                                         </button>
                                     </a>
@@ -80,19 +82,21 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 order-md-2" style="height: 500px;">
-                                <div style="position: relative;" class = "mt-5">
-                                    <img src="./assets/img/Image Head LP1.png"
-                                        class = "img-head1" />
-                                    <img src="./assets/img/Image Head LP2.png"
-                                        class = "img-head2" />
+                                <div style="position: relative;" class="mt-5">
+                                    <img src="./assets/img/Image Head LP1.png" class="img-head1" data-aos="flip-right"
+                                        data-aos-delay="1000" data-aos-duration="500" />
+                                    <img src="./assets/img/Image Head LP2.png" class="img-head2" data-aos="flip-up"
+                                        data-aos-delay="1500" data-aos-duration="500" />
                                 </div>
                             </div>
                             <div
                                 class="col-lg-6 col-md-6 d-flex align-items-center justify-content-center order-md-1 px-3">
                                 <div>
-                                    <h1 class="text-white" style="font-size: 60px">Late night dwelling<br />
+                                    <h1 class="text-white" style="font-size: 60px" data-aos="fade-up"
+                                        data-aos-delay="500" data-aos-duration="500">Late night dwelling<br />
                                         ‍on the Past<br /></h1>
-                                    <p class="my-5 text-white" style="font-size: 25px;">2 old buddies dwelling on the
+                                    <p class="my-3 text-white" style="font-size: 25px;" data-aos="fade-up"
+                                        data-aos-delay="800" data-aos-duration="500">2 old buddies dwelling on the
                                         past, reminiscing the times when BTC was at 69,000 and bought their first car
                                         with the profit.</p>
                                     <div>
@@ -110,27 +114,28 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="my-5 pb-5">
+                                        <div class="d-flex" style="width: 100%">
+                                            <div style="flex: 1" class="pr-2 text-center" data-aos="fade-up" data-aos-delay="500" data-aos-duration="200">
+                                                <img src="./assets/img/whale.png" style="width: 50px; height: auto;"
+                                                    alt="">
+                                                <p style="color: #F1E0C2;font-size: 18px;" class="mt-4">Anti-whale</p>
+                                            </div>
+                                            <div style="flex: 1" class="px-2 text-center" data-aos="fade-up" data-aos-delay="700" data-aos-duration="200">
+                                                <img src="./assets/img/bot.png" style="width: 50px; height: auto;"
+                                                    alt="">
+                                                <p style="color: #F1E0C2;font-size: 18px;" class="mt-4">Anti-bot</p>
+                                            </div>
+                                            <div style="flex: 1" class="px-2 text-center" data-aos="fade-up" data-aos-delay="900" data-aos-duration="200">
+                                                <img src="./assets/img/lock.png" style="width: 45px; height: auto;"
+                                                    alt="">
+                                                <p style="color: #F1E0C2;font-size: 18px;" class="mt-4">Locked Liquidity
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container mt-5 pb-5">
-                    <div class="d-flex" style="width: 100%">
-                        <div style="flex: 1" class="pr-2 text-center">
-                            <span
-                                style="color:#000; font-size: 30px;    text-shadow: 0 0 1px #fff, 1px 1px 1px #fff">50M+</span>
-                            <p style="color: #F1E0C2;font-size: 18px;">Executive Assets</p>
-                        </div>
-                        <div style="flex: 1" class="px-2 text-center">
-                            <span
-                                style="color:#000; font-size: 30px;    text-shadow: 0 0 1px #fff, 1px 1px 1px #fff">320K+</span>
-                            <p style="color: #F1E0C2;font-size: 18px;">NFT Best Creator</p>
-                        </div>
-                        <div style="flex: 1" class="px-2 text-center">
-                            <span
-                                style="color:#000; font-size: 30px;    text-shadow: 0 0 1px #fff, 1px 1px 1px #fff">100+</span>
-                            <p style="color: #F1E0C2;font-size: 18px;">Platform Support</p>
                         </div>
                     </div>
                 </div>
@@ -156,14 +161,16 @@
                     <div class="col-lg-6">
                         <div style="position: relative;">
                             <img src="./assets/img/base-2.png" class="base" alt="">
-                            <img src="./assets/img/main-3.png" class="main-3" alt="">
-                            <img src="./assets/img/badge-1.png" class="baadge" alt="">
-                            <img src="./assets/img/aid-1.png"
+                            <img src="./assets/img/main-3.png" class="main-3" data-aos="slide-left" alt="">
+                            <img src="./assets/img/badge-1.png" class="baadge" data-aos="zoom-in" data-aos-delay="500"
+                                alt="">
+                            <img src="./assets/img/aid-1.png" data-aos="zoom-in"
                                 style="width: 120px; height: auto; position: absolute;top: 280px;left: 0;" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <p style="font-size: 25px; text-align: right">It was a cold, bleak midwinter night. The wind was
+                        <p style="font-size: 25px; text-align: right" data-aos="fade-up" data-aos-delay="800"
+                            data-aos-duration="1000">It was a cold, bleak midwinter night. The wind was
                             howling outside and the snow was falling in great white flakes. Inside the bar, it was warm
                             and
                             cozy. The fire was crackling in the fireplace and the liquor was flowing freely. Pepe was
@@ -189,18 +196,21 @@
                     alt="">
                 <div class="row">
                     <div class="col-lg-6">
-                        <p style="font-size: 30px;line-height: 60px;">
+                        <p style="font-size: 30px;line-height: 60px;" data-aos="fade-up" data-aos-delay="800"
+                            data-aos-duration="1000">
                             Pepe went up to him and asked, <br /> "Hey man, why are you drinking <br /> so much? <br />
                             What's wrong?"
                         </p>
-                        <img src="./assets/img/w1.png" class="img-fluid" alt="">
+                        <img src="./assets/img/w1.png" class="img-fluid" data-aos="slide-right" data-aos-delay="500"
+                            alt="">
                     </div>
                     <div class="col-lg-6">
                         <div style="position: relative;">
                             <img src="./assets/img/base-3.png" class="base" alt="">
-                            <img src="./assets/img/main-4.png" class="main-4" alt="">
-                            <img src="./assets/img/badge-1.png" class="baadge" alt="">
-                            <img src="./assets/img/aid-2.png" class="aid-2" alt="">
+                            <img src="./assets/img/main-4.png" class="main-4" data-aos="slide-up" alt="">
+                            <img src="./assets/img/badge-1.png" class="baadge" data-aos="zoom-in" data-aos-delay="500"
+                                alt="">
+                            <img src="./assets/img/aid-2.png" class="aid-2" data-aos="zoom-in" alt="">
                         </div>
                     </div>
                 </div>
@@ -222,18 +232,20 @@
                 <div class="col-lg-6">
                     <div style="position: relative;">
                         <img src="./assets/img/base-2.png" class="base" alt="">
-                        <img src="./assets/img/main-5.png" class="main-5" alt="">
-                        <img src="./assets/img/badge-1.png" class="baadge" alt="">
-                        <img src="./assets/img/aid-1.png" class="aid-1" alt="">
+                        <img src="./assets/img/main-5.png" class="main-5" data-aos="slide-down" alt="">
+                        <img src="./assets/img/badge-1.png" class="baadge" data-aos="zoom-in" data-aos-delay="500"
+                            alt="">
+                        <img src="./assets/img/aid-1.png" class="aid-1" data-aos="zoom-in" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 text-right">
-                    <p style="font-size: 25px;line-height: 60px;text-align: right;">
+                    <p style="font-size: 25px;line-height: 60px;text-align: right;" data-aos="fade-up"
+                        data-aos-delay="800" data-aos-duration="1000">
                         Wojak turned to him, his eyes full of sadness. "Do you remember 2021? That was a good year.
                         Everything was going right. The crypto market was profitable, there were opportunities
                         everywhere. Anything I bought would turn into a profitable investment, I miss those days."
                     </p>
-                    <img src="./assets/img/w3.png" class="img-fluid" alt="">
+                    <img src="./assets/img/w3.png" class="img-fluid" data-aos="slide-left" data-aos-delay="500" alt="">
                 </div>
             </div>
         </div>
@@ -247,25 +259,30 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 d-flex align-items-center">
-                        <p class="text-white" style="font-size: 29px;line-height: 55.56px;;">
+                        <p class="text-white" style="font-size: 29px;line-height: 55.56px;;" data-aos="fade-up"
+                            data-aos-delay="800" data-aos-duration="1000">
                             Pepe nodded in understanding and started wondering about the time when Bitcoin was at
                             $69,000. He remembered how they were all euphoric and prepared for $100,000. But then the
                             bottom fell out and it all came crashing down. Those were the days
                         </p>
                     </div>
-                    <div class="col-lg-6 d-flex justify-content-center">
+                    <div class="col-lg-6 d-flex justify-content-center" data-aos="slide-left" data-aos-delay="500"
+                        data-aos-duration="500">
                         <img src="./assets/img/main-6.png" style="width: 80%" alt="">
                     </div>
                 </div>
                 <div class="row" style="margin-top: 100px;">
                     <div class="col-lg-6">
-                        <img src="./assets/img/main.png" class="img-fluid" alt="">
+                        <img src="./assets/img/main.png" class="img-fluid" data-aos="slide-left" data-aos-delay="500"
+                            data-aos-duration="500" alt="">
                     </div>
                     <div class="col-lg-6 text-right">
-                        <p class="text-white" style="font-size: 29px;">
+                        <p class="text-white" style="font-size: 29px;" data-aos="fade-up" data-aos-delay="800"
+                            data-aos-duration="1000">
                             But then Pepe said something that made Wojak's blood run cold.
                         </p>
-                        <p class="text-white" style="font-size: 29px;" class="mt-5">
+                        <p class="text-white" style="font-size: 29px;" class="mt-5" data-aos="fade-up"
+                            data-aos-delay="800" data-aos-duration="1000">
                             "You know, I sometimes think about what would have happened if I had just invested in that
                             one coin. I would have made a fortune. But I didn't, and now I'm stuck here, working at this
                             bar."
@@ -293,15 +310,17 @@
                     <div class="col-lg-6">
                         <div style="position: relative;">
                             <img src="./assets/img/base-3.png" class="base" alt="">
-                            <img src="./assets/img/main-7.png"
+                            <img src="./assets/img/main-7.png" data-aos="slide-down"
                                 style="width: 300px; height: auto; position: absolute;top: 50px;left: 100px;" alt="">
-                            <img src="./assets/img/badge-1.png" class="baadge" alt="">
+                            <img src="./assets/img/badge-1.png" class="baadge" data-aos="zoom-in" data-aos-delay="500"
+                                alt="">
                             <img src="./assets/img/aid-1.png"
                                 style="width: 120px; height: auto; position: absolute;top: 360px;left: 60px" alt="">
                         </div>
                     </div>
                     <div class="col-lg-6 text-right d-flex align-items-center">
-                        <p style="font-size: 29px;line-height: 55.56px;text-align: right;">
+                        <p style="font-size: 29px;line-height: 55.56px;text-align: right;" data-aos="fade-up"
+                            data-aos-delay="800" data-aos-duration="1000">
                             Wojak could see the despair in Pepe's eyes. He knew that feeling all too well. "But you
                             can't dwell on the past, man. You have to live in the present and make the best of what you
                             have." said Wojak.
@@ -325,7 +344,8 @@
                 alt="">
             <div class="row">
                 <div class="col-lg-6">
-                    <p style="font-size: 29px;line-height: 60px;" class="mx-3">
+                    <p style="font-size: 29px;line-height: 60px;" class="mx-3" data-aos="fade-up" data-aos-delay="800"
+                        data-aos-duration="1000">
                         Pepe nodded, but Wojak could tell that he didn't really believe him. And who could blame him?
                         The future looked bleak for all of them.
                     </p>
@@ -333,9 +353,9 @@
                 <div class="col-lg-6">
                     <div style="position: relative;">
                         <img src="./assets/img/base-2.png" class="base" alt="">
-                        <img src="./assets/img/main-8.png"
+                        <img src="./assets/img/main-8.png" data-aos="slide-left"
                             style="width: 500px; height: auto; position: absolute;top: 50px; left: -50px" alt="">
-                        <img src="./assets/img/badge-1.png"
+                        <img src="./assets/img/badge-1.png" data-aos="zoom-in" data-aos-delay="500"
                             style="width: 120px; height: auto; position: absolute;right: 50px;" alt="">
                         <img src="./assets/img/aid-1.png"
                             style="width: 120px; height: auto; position: absolute;top: 260px;left: -100px" alt="">
@@ -352,10 +372,9 @@
                     <img src="./assets/img/main-9.png" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 text-right">
-                    <p style="font-size: 22px;line-height: 50px;text-align: right;color: #E6E6E6;">
-                        Wojak turned to him, his eyes full of sadness. "Do you remember 2021? That was a good year.
-                        Everything was going right. The crypto market was profitable, there were opportunities
-                        everywhere. Anything I bought would turn into a profitable investment, I miss those days."
+                    <p style="font-size: 32px;line-height: 50px;text-align: right;color: #E6E6E6;">
+                        But Pepe had to believe that things would get better. He had to hold on to hope. Otherwise, what
+                        was the point of living?
                     </p>
                 </div>
             </div>
@@ -391,34 +410,35 @@
     <footer style="background: #1A1A23">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3">
-                    <h5 class="text-white">Socials:</h5>
-                    <ul class="footer-ul">
-                        <li><a href="#">Telegram </a></li>
-                        <li><a href="#">Twitter </a></li>
-                        <li><a href="#">Medium </a></li>
-                    </ul>
+                <div class="col-lg-4 d-flex">
+                    <div>
+                        <h5 class="text-white">Socials:</h5>
+                        <ul class="footer-ul">
+                            <li><a href="#">Telegram </a></li>
+                            <li><a href="#">Twitter </a></li>
+                            <li><a href="#">Medium </a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-3">
-                    <h5 class="text-white">Information:</h5>
-                    <ul class="footer-ul">
-                        <li><a href="#">Dextools </a></li>
-                        <li><a href="#">Etherscan</a></li>
-                        <li><a href="#">Unicrypt </a></li>
-                    </ul>
+                <div class="col-lg-4 d-flex">
+                    <div>
+                        <h5 class="text-white">Information:</h5>
+                        <ul class="footer-ul">
+                            <li><a href="#">Dextools </a></li>
+                            <li><a href="#">Etherscan</a></li>
+                            <li><a href="#">Unicrypt </a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="col-lg-3">
-                    <h5 class="text-white">Documents: </h5>
-                    <ul class="footer-ul">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">How to Buy</a></li>
-                        <li><a href="#">Whitepaper</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h5 class="text-white">Get In Touch</h5>
-                    <p style="color: #9797B4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, facilis
-                        accusantium? Dolores, totam non. </p>
+                <div class="col-lg-4 d-flex">
+                    <div>
+                        <h5 class="text-white">Documents: </h5>
+                        <ul class="footer-ul">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">How to Buy</a></li>
+                            <li><a href="#">Whitepaper</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -433,7 +453,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
+        AOS.init();
         $(window).scroll(function () {
             if ($(window).scrollTop() >= 50) {
                 $('.navbar').css('background', '#121212');
