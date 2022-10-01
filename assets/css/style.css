@@ -67,6 +67,10 @@ section {
     left: 50px;
 }
 
+.aid-3{
+    width: 120px; height: auto; position: absolute;top: 280px;left: 0;
+}
+
 .main-5{
     width: 270px; height: auto; position: absolute;top: 90px; left: 80px
 }
@@ -118,5 +122,22 @@ section {
        margin-left: -130px;
        margin-top: -20px;
        height: auto;
+    }
+
+    .base{
+        width: 90%;
+    }
+
+    .main-3{
+        width: 90%;
+    }
+
+    .baadge{
+        right: 0;
+    }
+
+    .aid-3{
+        top: 230px;
+        width: 80px;
     }
 }
