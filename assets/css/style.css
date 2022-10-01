@@ -63,12 +63,20 @@ section {
     width: 120px;
     height: auto;
     position: absolute;
-    top: 370px;
-    left: 50px;
+    top: 300px;
+    left: 0px;
 }
 
 .aid-3{
     width: 120px; height: auto; position: absolute;top: 280px;left: 0;
+}
+
+.aid-7{
+    width: 120px; height: auto; position: absolute;top: 360px;left: 60px
+}
+
+.aid-8{
+    width: 120px; height: auto; position: absolute;top: 260px;left: -100px
 }
 
 .main-5{
@@ -84,14 +92,22 @@ section {
 }
 
 .main-4 {
-    width: 330px;
+    width: 300px;
     height: auto;
     position: absolute;
-    top: 60px;
-    left: 80px
+    top: 30px;
+    left: 40px
 }
 
-.baadge {
+.main-7{
+    width: 300px; height: auto; position: absolute;top: 50px;left: 100px;
+}
+
+.main-8{
+    width: 500px; height: auto; position: absolute;top: 50px; left: -50px
+}
+
+.baadge, .baadge-1 {
     width: 120px;
     height: auto;
     position: absolute;
@@ -132,8 +148,56 @@ section {
         width: 90%;
     }
 
+    .main-5{
+        width: 240px;
+        top: 70px;
+        left: 50px;
+    }
+
+    .main-7{
+        width: 250px;
+        left: 70px;
+    }
+
+    .main-8{
+        width: 350px;
+        left: 10px;
+    }
+
+    .aid-7{
+        width: 120px;
+        top: 280px;
+        left: 30px;
+    }
+
+    .aid-8{
+        width: 80px;
+        top: 195px;
+        left: -15px;
+    }
+
+    .aid-1{
+        width: 100px;
+        top: 300px;
+    }
+
     .baadge{
         right: 0;
+    }
+
+    .baadge-1{
+        width: 90px;
+        top: 40px;right: 0px
+    }
+
+    .container {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .height-col{
+        width: 500px;
+        padding: 50px 0;
     }
 
     .aid-3{
