@@ -15,7 +15,7 @@ body {
 }
 
 .navbar ul li {
-    margin: 0 15px;
+    margin: 0 8px;
 }
 
 .navbar a {
@@ -42,16 +42,48 @@ section {
     margin: 0 auto;
 }
 
-.base{
-    width: 400px; height: auto;
+.base {
+    width: 400px;
+    height: auto;
 }
 
-.main-3{
-    width: 430px; height: auto; position: absolute;top: 50px; left: 0;
+.aid-1{
+    width: 120px; height: auto; position: absolute;top: 350px;left: 30px
 }
 
-.badge{
-    width: 120px; height: auto; position: absolute;right: 100px;
+.aid-2 {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    top: 370px;
+    left: 50px;
+}
+
+.main-5{
+    width: 270px; height: auto; position: absolute;top: 90px; left: 80px
+}
+
+.main-3 {
+    width: 430px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+
+.main-4 {
+    width: 330px;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    left: 80px
+}
+
+.baadge {
+    width: 120px;
+    height: auto;
+    position: absolute;
+    right: 100px;
 }
 
 .footer-ul {
