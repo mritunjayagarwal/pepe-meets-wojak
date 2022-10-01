@@ -42,6 +42,10 @@ section {
     margin: 0 auto;
 }
 
+.rem-line-height{
+    line-height: 55.56px;
+}
+
 .img-head1{
     position: absolute; top: -100px;z-index: 2;
 }
@@ -224,5 +228,9 @@ section {
 
     .navbar-collapse{
         background: #121212;
+    }
+
+    .rem-line-height{
+        line-height: unset;
     }
 }
